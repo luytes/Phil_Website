@@ -1,0 +1,116 @@
+<div class="container text-center pad-top-20 subhead">
+  <div class="row">
+    <div class="col-sm-12 space-bot-20">
+      <h2 class="margin-top-5">
+        <span class="up-case gen-header gen-header-sub">Discover My Work</span>
+      </h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 space-bot-15">
+      <!-- Row 1 -->
+      <div class="row">
+        <div class="col-12 col-sm-4 space-bot-25">
+          <%= link_to zehner_aktion_path do %>
+            <div class="gen-img gen-dis gen-hs">
+              <div class="bg-picture bg-hov-picture gen-category-small gen-social" style="background-image: url('<%= asset_path('Phil Website.007.jpeg') %>')"></div>
+              <div class="gen-num-small gen-text-small"><span class="dis">Aktion 10ner Note</span></div>
+            </div>
+          <% end %>
+        </div>
+        <div class="col-12 col-sm-4 space-bot-25">
+          <%= link_to banking_bier_path do %>
+            <div class="gen-img gen-dis gen-hs">
+              <div class="bg-picture bg-hov-picture gen-category-small gen-design" style="background-image: url('<%= asset_path('Phil Website.009.jpeg') %>')"></div>
+              <div class="gen-num-small gen-text-small"><span class="dis">Banking und Bier</span></div>
+            </div>
+          <% end %>
+        </div>
+        <div class="col-12 col-sm-4 space-bot-25">
+          <%= link_to hochzeitsmesse_path do %>
+            <div class="gen-img gen-dis gen-hs">
+              <div class="bg-picture bg-hov-picture gen-category-small gen-design" style="background-image: url('<%= asset_path('Phil Website.014.jpeg') %>')"></div>
+              <div class="gen-num-small gen-text-small"><span class="dis">Hochzeitsmesse</span></div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+      <!-- Row 2 -->
+      <div class="row">
+        <div class="col-12 col-sm-4 space-bot-25">
+          <%= link_to musiksponsoring_path do %>
+            <div class="gen-img gen-dis gen-hs">
+              <div class="bg-picture bg-hov-picture gen-category-small gen-research" style="background-image: url('<%= asset_path('Phil Website.020.jpeg') %>')"></div>
+              <div class="gen-num-small gen-text-small"><span class="dis">Musiksponsoring <br> Swiss Music Awards</span></div>
+            </div>
+          <% end %>
+        </div>
+        <div class="col-12 col-sm-4 space-bot-25">
+          <%= link_to adc_gala_path do %>
+            <div class="gen-img gen-dis gen-hs">
+              <div class="bg-picture bg-hov-picture gen-category-small gen-cont" style="background-image: url('<%= asset_path('Phil Website.029.jpeg') %>')"></div>
+              <div class="gen-num-small gen-text-small"><span class="dis">ADC Gala Magazin 2019</span></div>
+            </div>
+          <% end %>
+        </div>
+        <div class="col-12 col-sm-4 space-bot-25">
+          <%= link_to fribourg_path do %>
+            <div class="gen-img gen-dis gen-hs">
+              <div class="bg-picture bg-hov-picture gen-category-small gen-cont" style="background-image: url('<%= asset_path('Phil Website.031.jpeg') %>')"></div>
+              <div class="gen-num-small gen-text-small"><span class="dis">Geschäftsstelleneröffnung Fribourg</span></div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+      <!-- Row 3 -->
+      <div class="row">
+        <div class="col-12 col-sm-4 space-bot-25">
+          <%= link_to inone_path do %>
+            <div class="gen-img gen-dis gen-hs">
+              <div class="bg-picture bg-hov-picture gen-category-small gen-research" style="background-image: url('<%= asset_path('Phil Website.036.jpeg') %>')"></div>
+              <div class="gen-num-small gen-text-small"><span class="dis">InOne Vorteil</span></div>
+            </div>
+          <% end %>
+        </div>
+        <div class="col-12 col-sm-4 space-bot-25">
+          <%= link_to fan_challenge_path do %>
+            <div class="gen-img gen-dis gen-hs">
+              <div class="bg-picture bg-hov-picture gen-category-small gen-cont" style="background-image: url('<%= asset_path('Phil Website.043.jpeg') %>')"></div>
+              <div class="gen-num-small gen-text-small"><span class="dis">Fan Challenge</span></div>
+            </div>
+          <% end %>
+        </div>
+        <div class="col-12 col-sm-4 space-bot-25">
+          <%= link_to quiz_telefon_path do %>
+            <div class="gen-img gen-dis gen-hs">
+              <div class="bg-picture bg-hov-picture gen-category-small gen-cont" style="background-image: url('<%= asset_path('Phil Website.046.png') %>')"></div>
+              <div class="gen-num-small gen-text-small"><span class="dis">Quiz Telefon</span></div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+      <!-- Row 5 -->
+      <div class="row">
+        <div class="col-12 col-sm-4 space-bot-25">
+          <%= link_to unendliche_website_path do %>
+            <div class="gen-img gen-dis gen-hs">
+              <div class="bg-picture bg-hov-picture gen-category-small gen-research" style="background-image: url('<%= asset_path('Phil Website.050 2.jpeg') %>')"></div>
+              <div class="gen-num-small gen-text-small"><span class="dis">Die unendliche Website</span></div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= content_for(:after_js) do %>
+  <script>
+    var scroll_start = 0;
+    var change_color = $('#change_color');
+    if (change_color.length) {
+      $(document).scroll(updateNavStyle);
+      updateNavStyle(); // Note this.
+    }
+  </script>
+<% end %>

@@ -1,0 +1,425 @@
+.logo {
+  width: 70%; //100%;
+  height: 305px; //425px;
+  margin: auto;
+}
+.about-content {
+  background-color: black;
+  color: white;
+  font-weight: 300;
+  h2 {
+    padding-bottom: 1.25em;
+    letter-spacing: 0.05em;
+    margin: 0;
+    font-family: $my-font;
+  }
+  p {
+    padding: 0 0 0.938em 0;
+    margin: 0;
+    line-height: 1.55em;
+    font-size: 1.25em;
+  }
+}
+.menu {
+  background-color: black;
+  padding-bottom: 6.25em;
+}
+.menu-picture {
+  height: 420px;
+}
+.menu-button {
+  font-size: 16px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: white;
+  margin: 25px auto;
+  width: 230px;
+  padding: 0.625em 2.5em;
+  border: 2px solid white;
+  border-radius: 50px;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
+.menu-button:hover {
+  background-color: white;
+  color: black;
+}
+.news {
+  h2 {
+    padding-bottom: 1.25em;
+    letter-spacing: 0.05em;
+    margin: 0;
+    font-family: $my-font;
+  }
+}
+.news-content-left {
+  font-weight: 300;
+  h3 {
+    margin: 0;
+    font-size: 2em;
+    padding: 0 5% 0.5em 5%;
+    font-weight: 300;
+  }
+  .news-date {
+    padding: 10px 5% 20px 5%;
+    font-size: 1em;
+    color: lightcoral;
+    text-align: left;
+  }
+  .news-detail {
+    font-size: 0.875em;
+    line-height: 1.8em;
+    padding: 0 5%;
+    text-align: left;
+  }
+}
+.news-content {
+  margin: 0 150px;
+}
+.news-content-right img {
+  border-radius: 3px;
+}
+.news-picture {
+  height: 350px;
+  width: 100%;
+  border-radius: 3px;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.opening-hours {
+  margin: 0 120px;
+  font-size: 1.125em;
+  h3 {
+    margin: 0;
+    font-size: 1.6em;
+    padding: 0 5% 0.5em 5%;
+    font-weight: 300;
+  }
+  .opening-header {
+    font-weight: 300;
+  }
+  .opening-detail {
+    line-height: 1.875em;
+    padding: 0 5%;
+    text-align: left;
+  }
+  .opening-subheader {
+    color: lightcoral;
+    text-align: left;
+    padding: 10px 5% 5px 5%;
+  }
+}
+.reservation {
+  margin: 0 120px;
+  font-size: 1.125em;
+  font-weight: 300;
+  h3 {
+    margin: 0;
+    font-size: 1.6em;
+    padding: 0 5% 0.5em 5%;
+    font-weight: 300;
+  }
+  .reservation-detail {
+    line-height: 1.875em;
+    padding: 0 5%;
+    text-align: left;
+    p {
+      font-size: 0.875em;
+      padding-top: 3.125em;
+    }
+    span {
+      color: lightcoral;
+    }
+  }
+}
+// div {
+//   .gen-wth {
+//     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(asset-path("genstudent.png"));
+//   }
+//   .gen-research {
+//     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(asset-path("research.jpg"));
+//   }
+//   .gen-cont {
+//     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(asset-path("content.jpg"));
+//   }
+//   .gen-social {
+//     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(asset-path("social_media.jpg"));
+//   }
+//   .gen-design {
+//     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(asset-path("design.jpg"));
+//   }
+// }
+
+.wrapper-grey {
+  background-color: #F6F6F6;
+}
+.wrapper-grey h3 {
+  font-size: 24px;
+}
+.wrapper-grey p {
+  font-size: 20px;
+}
+.wrapper-yellow {
+  background-color: $yellow;
+  color: white;
+  .fa {
+    color: white;
+  }
+}
+.gen-wrapper-slash {
+  width: 100%;
+  height: 3.25em;
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+.gen-wrapper-slashleft {
+  background-color: $yellow;
+  -webkit-transform: skewY(2.3deg);
+  transform: skewY(2.3deg);
+  -webkit-transform-origin: 100%;
+  transform-origin: 100%;
+}
+.gen-wrapper-slashright {
+  -webkit-transform: skewY(2.3deg);
+  transform: skewY(-1.7deg);
+  -webkit-transform-origin: 0%;
+  transform-origin: 0%;
+  background-color: #E5F0F1;
+}
+.gen-header {
+  letter-spacing: 0.0725em;
+  font-weight: 600;
+}
+.gen-header-sub {
+  font-size: .675em;
+  color: black;
+}
+.gen-header-how {
+  font-size: 32px;
+  color: white;
+}
+.subhead {
+  h1 {
+    font-size: 2.5em;
+    letter-spacing: 0.045em;
+    font-weight: 300;
+    line-height: 1.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+    color: #999999;
+    font-weight: 300;
+    line-height: 1.5em;
+  }
+  h3 {
+    font-size: 21px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+  p {
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.045em;
+    font-weight: 300;
+    text-align: justify;
+  }
+  h4 {
+    font-size: 21px;
+  }
+}
+
+// APPARENTLY YOU CANT USE TRANSITION ON BACKGROUND-IMAGE
+
+.gen-category-big {
+  width: 100%;
+  height: 600px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.gen-category-small {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 2px;
+}
+.gen-text-big {
+  color: white;
+  left: 0;
+  margin: 0px;
+  position:absolute;
+  text-align:center;
+  top: 41%;
+  position: absolute;
+  width: 100%;
+}
+.gen-text-small {
+  color: white;
+  left: 0;
+  margin: 0px;
+  position: absolute;
+  text-align: center;
+  top: 42%;
+  width: 100%;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .2s, visibility .2s;
+}
+.gen-img:hover .gen-text-small {
+  visibility: visible;
+  opacity: 1;
+}
+.gen-img:hover .bg-hov-picture {
+  filter: brightness(50%);
+  transition: 0.2s;
+}
+.dis {
+  transition: .2s;
+  transform: translateY(1em);
+  // font-weight: bold;
+}
+
+.gen-img:hover .dis {
+  transform: translateY(0);
+}
+.gen-num-small {
+  font-size: 20px;
+  letter-spacing: 0.125em;
+}
+.gen-num {
+  font-size: 30px;
+  letter-spacing: 0.25em;
+}
+
+// BACKGROUND IMAGE EFFECTS
+.gen-img {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(41,47,57,.5);
+  transition: background-color .3s ease-in-out;
+  border-radius: 2px;
+
+}
+.gen-img img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+// PHIL
+.phil-picture {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+// THINGS THAT GET DISPLAYED WHEN HOVERED
+.overlay {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+a.close-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
+}
+a.close-overlay.hidden {
+  display: none;
+}
+a.expand {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  height: 60px;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.gen-hs {
+  a.expand {
+    font-size: 16px;
+  }
+}
+#effect .overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+#effect .overlay a.expand {
+  font-weight: 300;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#effect .gen-img.hover .overlay {
+  opacity: 1;
+}
+#effect .gen-img.hover .overlay a.expand {
+  top: 40%;
+  margin-top: -30px;
+  opacity: 1;
+}
+
+// ON PHONE
+@media only screen and (max-device-width: 480px) {
+  .gen-num {
+    letter-spacing: 0.125em;
+  }
+  .gen-num-small {
+    font-size: 30px;
+    top: 36%;
+  }
+  .gen-text-big {
+    top: 36%;
+  }
+  div .test {
+    width: 100%;
+    height: 300px;
+  }
+  .gen-category-big {
+    height: 600px;
+  }
+  .gen-category-small {
+    height: 175px;
+  }
+  .gen-hs {
+    a.expand {
+      font-size: 30px;
+    }
+  }
+}
+

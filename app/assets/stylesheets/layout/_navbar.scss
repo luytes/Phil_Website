@@ -1,0 +1,172 @@
+.gen-logo {
+  color: white;
+  margin: auto;
+}
+.gen-logo:hover {
+  text-decoration: none;
+}
+.navbar-trans {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.navbar-fixed {
+  position: fixed;
+  display: flex;
+  height: 70px;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+  left: 0px;
+  top: 0px;
+  z-index: 50;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+}
+.navbar-white {
+  background-color: white;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+}
+
+/* Navbar logo */
+.navbar-gen-brand img {
+  width: 150px;
+}
+
+/* Navbar right section (with form, links, button) */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navbar item */
+.navbar-wagon-item {
+  flex: 0 1 auto;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.navbar-pad-right {
+  padding-right: 15px;
+  padding-left: 5px;
+}
+.navbar-browse-item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  cursor: pointer;
+  padding-right: 15px;
+}
+.navbar-pad-right-1 {
+  padding: 0 20px 0 10px;
+}
+.navbar-pad-right-2 {
+  padding: 0 15px 0 10px;
+}
+/* Navbar standard links */
+.navbar-wagon-link {
+  color: #616668;
+  font-size: 14px;
+  transition: all .4s ease-in-out;
+}
+.navbar-wagon-link:hover {
+  color: #999999;
+  text-decoration: none;
+}
+.navbar-link-white {
+  color: white !important;
+}
+.navbar-link-white:hover {
+  color: #999999 !important;
+}
+
+/* Navbar right button */
+.navbar-button {
+  // for signup button do
+  // width: 94px;
+  // for company button do no width at all
+  letter-spacing: 0.075em;
+  padding: 0 20px;
+  border-radius: 20em;
+  line-height: 40px;
+  background-color: $light-blue;
+  border: 2px solid $light-blue;
+  color: white;
+  font-size: 14px;
+  transition: all .4s ease-in-out;
+}
+.navbar-button:hover {
+  color: white;
+  background-color: $blue;
+  border: 2px solid $blue;
+  text-decoration: none;
+}
+
+/* Navbar search form */
+.navbar-wagon-search {
+  flex: 0 1 300px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px;
+  position: relative;
+}
+.navbar-wagon-search-btn {
+  line-height: 40px;
+  color: #E6E6E6;
+  border: none;
+  background: transparent;
+  position: absolute;
+  right: 14px;
+  top: -2px;
+  z-index: 1;
+}
+.navbar-wagon-search-input {
+  flex: 0 1 300px;
+  transition: all 0.15s ease;
+  line-height: 40px;
+  font-weight: lighter;
+  color: #666666;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 14px;
+  outline: none;
+}
+.navbar-wagon-search-input:focus  {
+  border: 1px solid #CCCCCC;
+}
+
+/* Navbar dropdown menu */
+.navbar-wagon-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-wagon-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-wagon-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-wagon-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+.gen-ic {
+  color: #616668;
+  margin-top: 10px;
+}

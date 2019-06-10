@@ -1,0 +1,34 @@
+<div class="container text-center pad-top-20 subhead">
+
+  <div class="row">
+    <div class="col-sm-12 space-bot-20">
+      <h2 class="margin-top-5">
+      </h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-sm-6 space-bot-15">
+      <div class="phil-picture" style="background-image: url('<%= asset_path('Phil.PNG') %>')">
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 space-bot-15">
+      <div>
+        <p>Philosoph, Psychologe, Teilzeit-Philanthrop, <br> Langstrecken-Schläfer, Autor in Kinderschuhen und Texter aus Leidenschaft. <br> Ich war eines dieser merkwürdigen Kinder, die sich immer auf die Werbeunterbrechungen gefreut hat. <br> Das hat man wohl davon.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<%= content_for(:after_js) do %>
+  <script>
+    var scroll_start = 0;
+    var change_color = $('#change_color');
+    if (change_color.length) {
+      $(document).scroll(updateNavStyle);
+      updateNavStyle(); // Note this.
+    }
+  </script>
+<% end %>

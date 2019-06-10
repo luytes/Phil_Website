@@ -1,0 +1,38 @@
+<!-- My navbar code -->
+<div class="navbar-fuya navbar-add">
+  <div class="navbar-right hidden-xs hidden-sm">
+    <ul class="nav justify-content-center navigation">
+      <li class="nav-item">
+        <%= link_to "HOME", root_path, class: "active" %>
+        <!-- <a class="active" href="#Home">HOME</a> -->
+      </li>
+      <li class="nav-item">
+        <%= link_to "ABOUT", about_path %>
+        <!-- <a class="" href="#About">ABOUT</a> -->
+      </li>
+      <li class="nav-item">
+        <%= link_to "CONTACT", contact_path %>
+        <!-- <a class="" href="#Contact">CONTACT</a> -->
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Dropdown list appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li class="space-right">
+          <a href="#news">HOME</a>
+        </li>
+        <li class="space-right">
+          <a href="#menu">ABOUT</a>
+        </li>
+        </li>
+        <li class="space-right">
+          <a href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>

@@ -1,0 +1,101 @@
+.gen-header h1 {
+  font-size: 2em;
+  color: #5E5266;
+  font-weight: 300;
+}
+.gen-body li {
+  padding: .25em 0;
+}
+.gen-subheader {
+  font-size: 1.25em;
+  color: #5E5266;
+  font-weight: 700;
+}
+.gen-image {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.24), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  margin: 2.5em 0;
+}
+.gen-service {
+  width: 100%;
+  height: 18.75em;
+}
+.gen-line {
+  border: none;
+  height: 0.0625em;
+  color: #333; /* old IE */
+  background-color: #333; /* Modern Browsers */
+  opacity: 0.1;
+  margin: 3em auto;
+}
+.gen-faq li:nth-child(odd) {
+  color: #5E5266;
+  font-weight: 600;
+}
+.gen-faq li:nth-child(even) {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+.user-information {
+  overflow: hidden;
+  margin: 2em auto;
+}
+.aboutme-content {
+  margin-left: 11.5625em;
+  margin-top: 0;
+}
+.subscribe-btn {
+  margin-top: 100px;
+  margin-bottom: 11px;
+  border-radius: 100px;
+  height: 65px;
+  padding: 0 25px;
+  font-size: 20px;
+}
+.enquire-btn {
+  width: 95%;
+  margin-top: 50px;
+  margin-bottom: 11px;
+  border-radius: 100px;
+  height: 65px;
+  padding: 0 25px;
+  font-size: 20px;
+}
+.reviews-expanded-list{
+  display: none;
+}
+.review-num {
+  padding-left: 10px;
+  font-weight: lighter;
+}
+.text-middle {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 65px;
+}
+.btn-expand {
+}
+.gen-information-box {
+  border: 1px solid lightgray;
+  width: 100%;
+  padding: 1.25em 2.25em;
+  color: #333333;
+  span {
+    font-size: 1.125em;
+    font-weight: 600;
+  }
+}
+@media only screen and (max-device-width: 480px) {
+  .subscribe-btn {
+    margin-top: 25px;
+  }
+  .enquire-btn {
+    width: 100%;
+    margin-top: 0;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  .aboutme-content {
+    margin-left: 10.5625em;
+  }
+}

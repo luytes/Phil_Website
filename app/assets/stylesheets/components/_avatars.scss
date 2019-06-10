@@ -1,0 +1,62 @@
+.avatar {
+  width: 30px;
+  height: 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: white;
+}
+.avatar-large {
+  width: 50px;
+  border-radius: 50%;
+}
+.avatar-bordered {
+  width: 90px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: $light-green 1px solid;
+}
+.avatar-big-bordered {
+  float: left;
+  width: 9.25em;
+  height: 9.25em;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: $light-green 1px solid;
+  margin: 0 0.2em;
+}
+.avatar-square {
+  width: 30px;
+  border-radius: 0px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+.avatar-height {
+  height: 90px;
+}
+.avatar-position {
+  top: 5.05em;
+  left: 13.5em;
+}
+.profile-large-bordered {
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+.profile-large {
+  height: 150px;
+  width: 150px;
+}
+.picture-absolute {
+  position: absolute;
+  left: 210px;
+  top: -100px;
+}
+@media only screen and (max-device-width: 480px) {
+  .avatar-big-bordered {
+    width: 9.25em;
+    height: 9.25em;
+    border-radius: 50%;
+  }
+}
