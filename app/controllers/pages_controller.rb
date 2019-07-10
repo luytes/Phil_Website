@@ -35,7 +35,7 @@ class PagesController < ApplicationController
   def quiz_telefon
   end
 
-  def unendliche_website
+  def unendlich
   end
 
 end

@@ -13,6 +13,11 @@
   border-bottom: 1px solid black;
   padding-bottom: 3px;
 }
+.navigation li a.active {
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+  outline: none;
+}
 .navbar-link-white {
   color: white !important;
 }

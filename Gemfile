@@ -21,6 +21,7 @@ gem 'money-rails'
 gem 'carrierwave', '~> 0.11.2'
 gem 'cloudinary'
 gem 'select2-rails'
+gem 'rails_12factor'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap', '~> 4.3.1'

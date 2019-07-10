@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get 'inone', to: 'pages#inone', as: :inone
   get 'fan_challenge', to: 'pages#fan_challenge', as: :fan_challenge
   get 'quiz_telefon', to: 'pages#quiz_telefon', as: :quiz_telefon
-  get 'unendliche_website', to: 'pages#unendliche_website', as: :unendliche_website
+  get 'unendlich', to: 'pages#unendlich', as: :unendlich
   # Root
   root to: 'pages#home'
 end
