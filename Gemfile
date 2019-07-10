@@ -21,7 +21,6 @@ gem 'money-rails'
 gem 'carrierwave', '~> 0.11.2'
 gem 'cloudinary'
 gem 'select2-rails'
-gem 'rails_12factor'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap', '~> 4.3.1'
@@ -43,4 +42,8 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
+end
+
+group :production do
+  gem 'rails_12factor'
 end
