@@ -19,7 +19,7 @@ gem "coffee-rails"
 gem "coffee-script"
 gem 'money-rails'
 gem 'carrierwave', '~> 0.11.2'
-gem 'cloudinary'
+gem 'cloudinary', '~> 1.9.1'
 gem 'select2-rails'
 
 gem 'autoprefixer-rails'
