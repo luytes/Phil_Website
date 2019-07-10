@@ -20,6 +20,7 @@ gem "coffee-script"
 gem 'money-rails'
 gem 'carrierwave', '~> 0.11.2'
 gem 'cloudinary'
+gem 'select2-rails'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap', '~> 4.3.1'
