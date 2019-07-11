@@ -261,12 +261,13 @@
   margin: 0px;
   position: absolute;
   text-align: center;
-  top: 42%;
+  // top: 42%;
+  top: 36%;
   width: 100%;
   color: #fff;
   visibility: hidden;
   opacity: 0;
-  display: flex;
+  // display: flex;
   align-items: center;
   justify-content: center;
   transition: opacity .2s, visibility .2s;
@@ -279,13 +280,20 @@
   filter: brightness(50%);
   transition: 0.2s;
 }
-.dis {
+
+.gen-text-float {
   transition: .2s;
   transform: translateY(1em);
-  // font-weight: bold;
 }
-
-.gen-img:hover .dis {
+.gen-img:hover .gen-text-float {
+  transform: translateY(0);
+}
+.gen-text-small-float {
+  font-size: 14px;
+  transition: .2s;
+  transform: translateY(1em);
+}
+.gen-img:hover .gen-text-small-float {
   transform: translateY(0);
 }
 .gen-num-small {
